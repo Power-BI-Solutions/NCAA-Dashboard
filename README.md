@@ -1,4 +1,4 @@
-# NCAA-Dashboard <br><br/>
+# NCAA Dashboard <br><br/>
 
 ### Dashboard
 <p align="center">
