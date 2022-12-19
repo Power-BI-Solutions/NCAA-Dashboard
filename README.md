@@ -7,9 +7,9 @@
 <br><br/>
 
 ### Data Source
-- [NCAA Profit and Losses.xlxs]()
+- [NCAA Profit and Losses.xlxs](https://github.com/Power-BI-Solutions/NCAA-Dashboard/blob/main/NCAA%20Profit%20and%20Losses.xlsx)
 
-data was filtered
+Data required filtering as follows:
 
 ```dax
 = Table.SelectRows(#"Promoted Headers", each ([NCAA Subdivision] = "Football Bowl Subdivision"))
@@ -34,7 +34,9 @@ I used the following to create custom column:
 ### Model
 
 <p align="center">
-<img width="650em" src="" align = "center"/>
+<img width="650em" src="https://github.com/Power-BI-Solutions/NCAA-Dashboard/blob/main/ncaa_data.png" align = "center"/>
 </p>
 <br><br/>
+
+### 
 
