@@ -7,16 +7,26 @@
 <br><br/>
 
 ### Data Source
-- [Bee Colony Census Data by County.csv]()
+- [NCAA Profit and Losses.xlxs]()
 
 data was filtered
+
+```dax
+= Table.SelectRows(#"Promoted Headers", each ([NCAA Subdivision] = "Football Bowl Subdivision"))
+```
+
+
+```dax
+= Table.SelectRows(#"Changed Type", each ([Total Expenses] <> null))
+```
+
 <br><br/>
 
 ### Custom Column
 I used the following to create custom column:
 
 ```dax
-Colonies = SUM(census_data[value])
+= Table.AddColumn(#"Changed Type1", "Total Profits", each [Total Revenues]-[Total Expenses]+[Excess Transfers Back])
 ``` 
 
 <br><br/>
