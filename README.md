@@ -2,7 +2,7 @@
 
 ### Dashboard
 <p align="center">
-<img width="650em" src="" align = "center"/>
+<img width="650em" src="https://github.com/Power-BI-Solutions/NCAA-Dashboard/blob/main/NCAA%20Dashboard.gif" align = "center"/>
 </p>
 <br><br/>
 
@@ -38,5 +38,11 @@ I used the following to create custom column:
 </p>
 <br><br/>
 
-### 
+### Acknowledgement
+Project is from WoW Power BI (Workout Wednesday)
+- [Connect to data & create data model](https://www.youtube.com/watch?v=oiLuV0wBdTE&t=3s)
+- [Create basic KPI report](https://www.youtube.com/watch?v=UTzOGBgPGMw&t=1s)
+- [Report interactivity](https://www.youtube.com/watch?v=N8quTNUWuS0)
+- [Set up dril through](https://www.youtube.com/watch?v=6aBH34BjEAA&list=PLz5da78rjfffsZ7RnN2QV__X6oXT36h1X&t=2s)
+
 
